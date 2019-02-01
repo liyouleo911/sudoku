@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build sudoku",
+          "type": "shell",
+          "command": "gcc -o sudoku sudoku.c",
+          "args": [
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      }
+  ]
+}
